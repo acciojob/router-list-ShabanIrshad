@@ -5,12 +5,12 @@ const ItemDetail=()=>{
     const params = useParams();
     const {id} = params;
 
-    console.log(params);
+    // console.log(params);
 
     return (
         <>
             <h1>Item {id}</h1>
-            <p>Description for item {id}</p>
+            <p>Description for Item {id}</p>
         </>
     );
 }

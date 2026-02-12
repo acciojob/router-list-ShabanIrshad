@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const ItemList = () => {
-  const itemList = [1, 2, 3, 4, 5];
 
   return (
     <>
